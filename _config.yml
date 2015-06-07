@@ -24,3 +24,4 @@ prose:
     - /robots.txt
     - /static
     - /_layouts
+    - /index.md
