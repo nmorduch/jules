@@ -1,0 +1,277 @@
+---
+---
+
+.headline_font
+	font-family: 'museo-slab', serif
+	text-transform: uppercase
+
+.body_font
+	font-family: 'museo-sans', 'sans-serif'
+
+=columns($count, $gap)
+	-moz-column-count: $count
+	-webkit-column-count: $count
+	column-count: $count
+	-moz-column-gap: $gap
+	-webkit-column-gap: $gap
+	column-gap: $gap
+
+.clearfix
+	&:after
+		content: '.'
+		line-height: 0
+		height: 0
+		display: block
+		font-size: 0
+		width: 0
+		visibility: hidden
+		clear: both
+
+=transition($transition)
+	-webkit-transition: $transition
+	-moz-transition: $transition
+	-ms-transition: $transition
+	transition: $transition
+
+$black: #400901
+
+*
+	margin: 0
+	padding: 0
+
+body, html
+	position: relative
+	width: 100%
+	height: 100%
+	overflow-x: hidden
+	@extend .body_font
+
+header
+	position: relative
+	display: table
+	width: 100%
+	height: 100%
+	background-image: url("{{ site.imgurl }}/cover.jpg")
+	background-size: cover
+	background-position: center top
+	background-attachment: fixed
+	background-repeat: no-repeat
+
+.title
+	font-size: .3em
+	display: table-cell
+	vertical-align: middle
+	h1, h2
+		@extend .headline_font
+		text-align: center
+		color: white
+	h1
+		font-size: 5.47em
+		font-weight: 700
+	h2
+		font-size: 3.75em
+		font-weight: 500
+		span
+			display: block
+		.line1 span
+			display: none
+.site-nav-header
+	position: fixed
+	z-index: 10
+	background-color: rgba(black, 0.4)
+	color: white
+	font-size: 2em
+	line-height: 20px
+	width: 100%
+	&.down
+		background-color: rgba(black, 0.8)
+		.site-nav
+			margin-top: 0
+.site-nav
+	+transition(all .5s)
+	text-align: center
+	margin-top: -200px
+	margin-left: 0
+	padding-left: 0
+	font-size: 16px
+	li
+		list-style-type: none
+		@extend .headline_font
+		font-weight: 100
+		margin: 0 20px
+	a
+		width: 100%
+		+transition(all .2s)
+		display: block
+		padding: 10px 0
+		color: white
+		text-decoration: none
+		&:hover
+			text-decoration: none
+			color: #ddd
+			background-color: $black
+#hamburger
+	width: 100%
+	text-align: right
+	line-height: 40px
+	padding-right: 15px
+	cursor: pointer
+
+section > header
+	width: 100%
+	height: 200px
+	background-size: cover
+	background-repeat: no-repeat
+	background-attachment: scroll
+	background-position: center center
+	display: table
+	font-size: .7em
+	h1
+		@extend .headline_font
+		vertical-align: middle
+		display: table-cell
+		text-align: center
+		font-size: 3.125em
+		font-weight: 900
+		color: white
+.content
+	text-align: center
+	color: $black
+	padding: 40px 16px
+	h2
+		@extend .body_font
+		font-size: 1.5em
+		font-weight: 500
+		margin-top: 1em
+		&:first-child
+			margin-top: 0
+	p
+		@extend .body_font
+		font-weight: 300
+
+#about
+	font-size: 0.94em
+	line-height: 1.5em
+	.content
+		text-align: left
+	p
+		margin-bottom: 1em
+		line-height: 1.8em
+
+
+#gigs > header
+	background-image: url("{{ site.imgurl }}/gigs.jpg")
+	background-color: #000203
+
+#gear > header
+	background-image: url("{{ site.imgurl }}/gear.jpg")
+	background-color: #000203
+
+#media
+	> header
+		background-image: url("{{ site.imgurl }}/media.jpg")
+	iframe
+		display: block
+		max-width: 100%
+		margin: 0 auto 4em
+	h2
+		margin: 24px 0
+		@extend .body_font
+	a, a:visited
+		.soundcloud &
+			color: #ff5400
+		.youtube &
+			color: #ce1312
+	a:hover, a:active
+		.soundcloud &
+			color: darken(#ff5400,5%)
+		.youtube &
+			color: darken(#ce1312,5%)
+	.youtube
+		padding-top: 48px
+
+#contact
+	background-image: url("{{ site.imgurl }}/contact.jpg")
+	background-position: center top
+	background-size: cover
+	height: 400px
+	width: 100%
+	font-size: .7em
+	color: white
+	.content_wrapper
+		padding-top: 5%
+		text-align: center
+	h1
+		@extend .headline_font
+		font-weight: 900
+		font-size: 3.125em
+	a
+		@extend .body_font
+		font-weight: 300px
+		color: white
+		text-decoration: none
+		font-size: 1.5em
+		padding: 5px 10px
+		&:hover
+			text-decoration: underline
+
+
+@media screen and (min-width: 400px)
+	.title
+		font-size: .5em
+		h2
+			font-size: 1.875em
+			span, .line1 span
+				display: inline
+	section > header
+		height: 250px
+
+@media screen and (min-width: 560px)
+	.title
+		font-size: .7em
+	section > header
+		height: 400px
+		font-size: 1em
+	#contact
+		font-size: 1em
+
+@media screen and (min-width: 640px)
+	.site-nav-header, .site-nav-header.down
+		background: none
+		position: absolute
+		top: 0
+	.site-nav
+		width: 100%
+		margin-top: 0
+		li
+			display: block
+			float: left
+			width: 20%
+			margin: 0
+		a:hover
+			background: none
+			text-decoration: underline
+	#hamburger
+		display: none
+
+@media screen and (min-width: 800px)
+	.title
+		font-size: 1em
+	.content
+		font-size: 1em
+		max-width: 960px
+		margin-left: auto
+		margin-right: auto
+		padding: 128px 100px
+	.col-2
+		text-align: left
+		+columns(2, 100px)
+
+@media screen and (min-width: 960px)
+	#contact
+		height: 700px
+	.col-2-wide
+		text-align: left
+		max-width: 1200px
+		+columns(2, 100px)
+

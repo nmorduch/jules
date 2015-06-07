@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		{{ site.title }}
+	</title>
+
+	<link rel='stylesheet' type='text/css' href='static/css/styles.css'>
+	<script type="text/javascript" src="//use.typekit.net/msr5hvb.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body>
+	<header id='cover' data-parallax-speed='10'>
+		<nav class="site-nav-header">
+			<ul class="site-nav">
+				<li><a href='#about'>About</a></li>
+				<li><a href='#gigs'>Gigs/Projects</a></li>
+				<li><a href='#gear'>Gear</a></li>
+				<li><a href='#media'>Media</a></li>
+				<li><a href='#contact'>Contact</a></li>
+			</ul>
+
+			<div id='hamburger'>&#9776;</div>
+		</nav>
+		<div class="title">
+			<h1>
+				Jules Belmont
+			</h1>
+			<h2>
+				<span class='line1'>
+					Guitarist
+					&middot;
+					Composer
+					<span>&middot;</span>
+				</span>
+				<span class='line2'>
+					Producer
+					&middot;
+					Educator
+				</span>
+			</h2>
+		</div>
+	</header>
+
+	<section id='about'>
+		<div class="content col-2-wide">
+			{% capture section %}{% include about.md %}{% endcapture %}
+			{{ section | markdownify }}
+		</div>
+	</section>
+
+	<section id='gigs'>
+		<header data-bg-offset='-400', data-parallax-speed='1.2' data-bg-position='top'>
+			<div class='bg'></div>
+			<h1>
+				Gigs/Projects
+			</h1>
+		</header>
+		<div class="content col-2">
+			{% capture section %}{% include gigs.md %}{% endcapture %}
+			{{ section | markdownify }}
+		</div>
+	</section>
+
+	<section id='gear'>
+		<header data-bg-offset='-400', data-parallax-speed='1.2' data-bg-position='top'>
+			<div class='bg'></div>
+			<h1>
+				Gear
+			</h1>
+		</header>
+
+		<div class="content col-2">
+			{% capture section %}{% include gear.md %}{% endcapture %}
+			{{ section | markdownify }}
+		</div>
+	</section>
+
+	<section id='media'>
+		<header>
+			<h1>Media</h1>
+		</header>	
+		<div class="content">
+			<div class='soundcloud'>
+				<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/121317838&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
+				<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/121317333&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
+				<h2><a href='http://soundcloud.com/julesbelmont'>Visit my Soundcloud &rsaquo;</a></h2>
+			</div>
+			<div class='youtube'>
+				<iframe width="853" height="480" src="//www.youtube.com/embed/G1wafDx_TUc" frameborder="0" allowfullscreen></iframe>
+				<iframe width="853" height="480" src="//www.youtube.com/embed/5gw-OQFj_Hg" frameborder="0" allowfullscreen></iframe>
+				<iframe width="853" height="480" src="//www.youtube.com/embed/2uH8BTf8KRk" frameborder="0" allowfullscreen></iframe>
+				<iframe width="853" height="480" src="//www.youtube.com/embed/INmM_coHLsA" frameborder="0" allowfullscreen></iframe>	
+				<h2><a href='http://youtube.com/julesbelmont1/videos'>Visit my Youtube channel &rsaquo;</a></h2>
+			</div>
+		</div>		
+	</section>
+
+	<section id='contact'>
+		<div class='content_wrapper'>
+			<h1>For booking/lessons</h1>
+			<div class='contact_info'>
+				<a href='mailto:{{ site.email }}'>{{ site.email }}</a>
+				<a href='tel:{{ site.phone }}'>{{ site.phone }}</a>
+			</div>
+		</div>
+	</section>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src='static/js/script.js'></script>
+</body>
+</html>

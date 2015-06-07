@@ -1,0 +1,26 @@
+# Site settings
+title: "Jules Belmont - Guitarist, Composer, Producer, Educator"
+email: jules.belmont@gmail.com
+phone: 413-320-9566
+description: >
+  Jules Belmont is awesome at playing guitar.
+url: "http://julesbelmont.com" # the base hostname & protocol for your site
+baseurl: /jules # the subpath of your site, e.g. /blog/
+imgurl: /static/img
+
+
+# Build settings
+markdown: kramdown
+
+# Setting for prose.io
+prose:
+  media: 'static/media'
+  ignore:
+    - /CNAME
+    - /.gitignore
+    - /Gemfile
+    - /Gemfile.lock
+    - /README.md
+    - /robots.txt
+    - /static
+    - /_layouts
