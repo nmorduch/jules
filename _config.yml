@@ -4,9 +4,9 @@ email: jules.belmont@gmail.com
 phone: 413-320-9566
 description: >
   Jules Belmont is awesome at playing guitar.
-url: "http://julesbelmont.com" # the base hostname & protocol for your site
+url: "nmorduch.me" # the base hostname & protocol for your site
 baseurl: /jules # the subpath of your site, e.g. /blog/
-imgurl: /static/img
+imgurl: /jules/static/img
 
 
 # Build settings
