@@ -14,10 +14,10 @@
 	<header id='cover' data-parallax-speed='10'>
 		<nav class="site-nav-header">
 			<ul class="site-nav">
-				<li><a href='#about'>About</a></li>
-				<li><a href='#gigs'>Gigs/Projects</a></li>
-				<li><a href='#gear'>Gear</a></li>
 				<li><a href='#media'>Media</a></li>
+				<li><a href='#gigs'>Gigs/Projects</a></li>
+				<li><a href='#about'>About</a></li>
+				<!-- <li><a href='#gear'>Gear</a></li> -->
 				<li><a href='#contact'>Contact</a></li>
 			</ul>
 
@@ -43,10 +43,12 @@
 		</div>
 	</header>
 
-	<section id='about'>
-		<div class="content col-2-wide">
-			{% capture section %}{% include about.md %}{% endcapture %}
-			{{ section | markdownify }}
+	<section id='media'>
+		<header>
+			<h1>Media</h1>
+		</header>
+		<div class="content">
+			{% include media.html %}
 		</div>
 	</section>
 
@@ -63,7 +65,21 @@
 		</div>
 	</section>
 
-	<section id='gear'>
+	<section id='about'>
+		<header data-bg-offset='-400', data-parallax-speed='1.2' data-bg-position='top'>
+			<div class='bg'></div>
+			<h1>
+				Bio
+			</h1>
+		</header>
+		<div class="content col-2-wide">
+			{% capture section %}{% include about.md %}{% endcapture %}
+			{{ section | markdownify }}
+		</div>
+	</section>
+
+
+	<!--section id='gear'>
 		<header data-bg-offset='-400', data-parallax-speed='1.2' data-bg-position='top'>
 			<div class='bg'></div>
 			<h1>
@@ -75,20 +91,12 @@
 			{% capture section %}{% include gear.md %}{% endcapture %}
 			{{ section | markdownify }}
 		</div>
-	</section>
+	</section-->
 
-	<section id='media'>
-		<header>
-			<h1>Media</h1>
-		</header>	
-		<div class="content">
-			{% include media.html %}
-		</div>		
-	</section>
 
 	<section id='contact'>
 		<div class='content_wrapper'>
-			<h1>For booking/lessons</h1>
+			<h1>For booking &amp; lessons</h1>
 			<div class='contact_info'>
 				<a href='mailto:{{ site.email }}'>{{ site.email }}</a>
 				<a href='tel:{{ site.phone }}'>{{ site.phone }}</a>
