@@ -1,19 +1,16 @@
-## Habana Alternativa
+## Projects
 
-*Duo/Trio with my compadre Victor Rosso*
+Instagram here and https://www.youtube.com/user/JulesBelmont1
 
-El Viejo Yayo — Thursdays 7–10
+https://julesbelmont.bandcamp.com/releases
 
-Amor Cubano — Sundays 7–10
+http://www.nellendryden.com/ 
 
-## Amandla
+https://www.facebook.com/nellendrydenandthevisitors
 
-I had the pleasure of working on their newest release, Powerlink. Check out this great roots reggae project
+http://nationbeat.com/
 
-[amandlaband.com](http://amandlaband.com)
-
-
-## Jules Belmont Trio
+### Jules Belmont
 
 New disc: *Archival*
 
@@ -25,10 +22,10 @@ New disc: *Archival*
 
 
 
-## Cumbiagra
+## Residencies
 
-I'm lucky enough to gig around NYC and elsewhere with this group of stellar gents and lady
+Sundays 7-10pm @ Amor Cubano (111th and 3rd Ave) Manhattan. 
 
-Splitty in Fort Greene — Mondays
 
-[cumbiagra.com](http://www.cumbiagra.com)
+
+
