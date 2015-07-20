@@ -1,7 +1,7 @@
 ## Projects
 
 [Instagram](https://instagram.com/julesbelmont/),
-[Facebook]()
+[Facebook](https://www.facebook.com/JulesBelmontMusic)
 
 [Nellen Dryden](http://www.nellendryden.com/), Country-Americana-Folk-Roots-Roll, (also on [Facebook](https://www.facebook.com/nellendrydenandthevisitors))
 
