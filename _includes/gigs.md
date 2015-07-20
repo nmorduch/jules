@@ -7,7 +7,8 @@ Sundays 7-10pm @ Amor Cubano (111th and 3rd Ave) Manhattan.
 
 ## Projects
 
-Instagram
+[Instagram](),
+[Facebook]()
 
 [Nellen Dryden](http://www.nellendryden.com/)
 
@@ -15,11 +16,11 @@ https://www.facebook.com/nellendrydenandthevisitors
 
 [Nation Beat](http://nationbeat.com/)
 
-
-
 ### Archival
 
-[Bandcamp](http://julesbelmont.bandcamp.com/releases), [iTunes](https://itunes.apple.com/us/album/archival/id843237177), [CDBaby](http://www.cdbaby.com/cd/julesbelmont)
+[Bandcamp](http://julesbelmont.bandcamp.com/releases),
+[iTunes](https://itunes.apple.com/us/album/archival/id843237177),
+[CDBaby](http://www.cdbaby.com/cd/julesbelmont)
 
 
 
