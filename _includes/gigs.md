@@ -10,8 +10,7 @@ Sundays 7-10pm @ [Amor Cubano](http://amorcubanonyc.com/Home.html) (111th and 3r
 [Instagram](https://instagram.com/julesbelmont/),
 [Facebook]()
 
-[Nellen Dryden](http://www.nellendryden.com/)
-[Facebook](https://www.facebook.com/nellendrydenandthevisitors)
+[Nellen Dryden](http://www.nellendryden.com/), Country-Americana-Folk-Roots-Roll, (also on [Facebook](https://www.facebook.com/nellendrydenandthevisitors))
 
 [Nation Beat](http://nationbeat.com/) melds maracatu, coco, and forro Brazilian rhythms with New Orleans funk, rock, jazz, bluegrass, and country blues
 
