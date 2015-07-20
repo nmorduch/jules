@@ -3,16 +3,15 @@
 
 ### Residencies
 
-Sundays 7-10pm @ Amor Cubano (111th and 3rd Ave) Manhattan. 
+Sundays 7-10pm @ [Amor Cubano](http://amorcubanonyc.com/Home.html) (111th and 3rd Ave) Manhattan. 
 
 ## Projects
 
-[Instagram](),
+[Instagram](https://instagram.com/julesbelmont/),
 [Facebook]()
 
 [Nellen Dryden](http://www.nellendryden.com/)
-
-https://www.facebook.com/nellendrydenandthevisitors
+[Facebook](https://www.facebook.com/nellendrydenandthevisitors)
 
 [Nation Beat](http://nationbeat.com/)
 
