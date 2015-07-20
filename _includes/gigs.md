@@ -7,27 +7,19 @@ Sundays 7-10pm @ Amor Cubano (111th and 3rd Ave) Manhattan.
 
 ## Projects
 
-Instagram here and https://www.youtube.com/user/JulesBelmont1
+Instagram
 
-https://julesbelmont.bandcamp.com/releases
-
-http://www.nellendryden.com/ 
+[Nellen Dryden](http://www.nellendryden.com/)
 
 https://www.facebook.com/nellendrydenandthevisitors
 
-http://nationbeat.com/
+[Nation Beat](http://nationbeat.com/)
 
 
 
-### Jules Belmont
+### Archival
 
-New disc: *Archival*
-
-[Bandcamp](http://julesbelmont.bandcamp.com/releases)
-
-[iTunes](https://itunes.apple.com/us/album/archival/id843237177)
-
-[CDBaby](http://www.cdbaby.com/cd/julesbelmont)
+[Bandcamp](http://julesbelmont.bandcamp.com/releases), [iTunes](https://itunes.apple.com/us/album/archival/id843237177), [CDBaby](http://www.cdbaby.com/cd/julesbelmont)
 
 
 
