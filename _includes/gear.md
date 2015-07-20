@@ -1,18 +1,25 @@
-## Guitars (to name a few…)
+## Guitars 
 
-NoName Tele Copy
+Fender Telecaster (x2)
+
+Baritone Telecaster
+
+Zumsteel Pedal Steel
+
+Gibson Lg-1
 
 Gibson 335
 
 Lucida Artista Flamenco
 
 Fender Strat
-
 Cuban Tres
 
 Egmond Steel
 
 Gretsch Lap Steel
+
+
 
 ## Recording
 
@@ -24,17 +31,27 @@ Mackie Onyx Blackbird
 
 Studio Project C-1
 
-Sony ECM pair
+Various SM58's, other
 
-## Pedals (to name a few…)
 
-Line6 Dl4 Delay
+
+## Pedals 
+
+Malekko 616 Dark
+
+Ibanez AD9
+
+Phase 90
+
+Menatone PoPo Fuzz
+
+Durham Sex Drive
+
+EHX B9
 
 Mooer HustleDrive
 
 Mooer Yellow Comp
-
-Boss 63' Fender Reverb
 
 Boss DD7 Delay
 
@@ -44,7 +61,11 @@ Fulltone SupaTrem
 
 Crybaby
 
+
+
 ## Amps
+
+Fender Princeton '79
 
 Mesa Transatlantic 15
 
