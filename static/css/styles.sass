@@ -27,6 +27,9 @@
 		visibility: hidden
 		clear: both
 
+.inline-block
+	display: inline-block
+
 =transition($transition)
 	-webkit-transition: $transition
 	-moz-transition: $transition
@@ -75,22 +78,10 @@ header
 			display: block
 		.line1 span
 			display: none
-.site-nav-header
-	position: fixed
-	z-index: 10
-	background-color: rgba(black, 0.4)
-	color: white
-	font-size: 2em
-	line-height: 20px
-	width: 100%
-	&.down
-		background-color: rgba(black, 0.8)
-		.site-nav
-			margin-top: 0
 .site-nav
 	+transition(all .5s)
 	text-align: center
-	margin-top: -200px
+	margin-top: -166px
 	margin-left: 0
 	padding-left: 0
 	font-size: 16px
@@ -110,12 +101,28 @@ header
 			text-decoration: none
 			color: #ddd
 			background-color: $black
+
+.site-nav-header
+	position: fixed
+	z-index: 10
+	background-color: rgba(black, 0.4)
+	color: white
+	font-size: 2em
+	line-height: 20px
+	width: 100%
+	&.down
+		background-color: rgba(black, 0.8)
+		.site-nav
+			margin-top: 0
+
 #hamburger
 	width: 100%
 	text-align: right
 	line-height: 40px
 	padding-right: 15px
 	cursor: pointer
+	&:hover
+		opacity: 0.7
 
 section > header
 	width: 100%
@@ -149,15 +156,14 @@ section > header
 	p
 		@extend .body_font
 		font-weight: 300
+		margin-bottom: 1em
+		line-height: 1.8em
 
 #about
 	font-size: 0.94em
 	line-height: 1.5em
 	.content
 		text-align: left
-	p
-		margin-bottom: 1em
-		line-height: 1.8em
 
 
 #about > header
@@ -274,8 +280,6 @@ section > header
 		+columns(2, 100px)
 
 @media screen and (min-width: 960px)
-	#contact
-		height: 700px
 	.col-2-wide
 		text-align: left
 		max-width: 1200px
